@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 83%;
+    max-width: 1320px;
+    margin: 0 auto;
+
+
+}
+
+.container-sub {
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    padding: 170px 0;
+
+
+}
+
+.heading-section {
+    max-width: 555px;
+    text-align: center;
+    margin: 50px auto;
+
+
+}
+
+.heading-title .wellcome-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 160% */
+}
+
+.container .heading-section .banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.container .heading-section .banner-head {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+
+}
+
+.heading-section>h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.heading-section>h4 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.heading-section>h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.images {
+    max-width: 500px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.sub-wellcome {
+    background-image: url('../images/Vectorrr.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.wellcome-head {
+    max-width: 600px;
+    padding: 126px 0px 0px 126px;
+    margin-bottom: 0px;
+
+}
+
+.heading-title h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    text-align: left;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    justify-content: left;
+
+}
+
+.wellcome-head .heading-title .wellcome-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#new-park-hotel {
+    margin: 0px;
+}
+
+.new-park {
+    background-color: #be54541a;
+    height: 400px;
+}
+
+.new-park-head h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.new-park-head .new-hotel {
+    margin-top: 0px;
+    padding: 100px 0px 0px 0px;
+}
+
+.heading-section .new-park-title {
+    color: #F00;
+}
+
+.new-park-title {
+    color: #F00;
+}
+
+button {
+    background: #F00;
+    color: #FFF;
+    padding: 10px 15px;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.heading-section .what-is-functional-text .functional-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.heading-section .what-is-functional-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.what-is-functional-text p {
+    color: #070211;
+}
+
+.what-is-functional-image {
+    max-width: 600px;
+    display: flex;
+
+}
+
+.what-is-functional-image div {
+    min-width: 300px;
+}
+
+.what-is-functional-image img {
+    width: 100%;
+}
+
+.protfolio-text {
+    max-width: 760px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.text-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-main {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.text-dscp {
+    text-align: left;
+}
+
+.protfolio-image {
+    display: flex;
+    gap: 20px;
+}
+
+.protfolio-image,
+.image {
+    flex-grow: 2;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: 0.2s;
+}
+
+.protfolio-image,
+.image:hover {
+    transform: scale(1.01);
+}
+
+#subscribe .sub-subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-image {
+    padding-top: 80px;
+    
+}
+
+.subscribe-head {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+#subscribe form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    max-height: 70px;
+    /* height: 50px; */
+    padding: 80px 0px;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+#subscribe form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer-p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.frist-p {
+    max-width: 370px;
+}
+
+#footer {
+    background-color: #070211;
+    height: 620px;
+
+}
+
+.footer-frist-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+hr {
+    margin: 50px 0px;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.social-media-icon {
+    text-align: center;
+
+}
+
+.social-media-icon img {
+    /* gap: 25px; */
+    padding-left: 25px;
+}
+
+.footer-second-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
